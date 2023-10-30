@@ -57,9 +57,17 @@
 		661458D32AF0365900E5508D /* swift_general_seminars */ = {
 			isa = PBXGroup;
 			children = (
-				661458D42AF0365900E5508D /* main.swift */,
+				6634764D2AF038A900DE8B76 /* llesson01 */,
 			);
 			path = swift_general_seminars;
+			sourceTree = "<group>";
+		};
+		6634764D2AF038A900DE8B76 /* llesson01 */ = {
+			isa = PBXGroup;
+			children = (
+				661458D42AF0365900E5508D /* main.swift */,
+			);
+			path = llesson01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
