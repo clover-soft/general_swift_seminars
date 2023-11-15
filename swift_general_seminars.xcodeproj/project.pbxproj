@@ -12,6 +12,7 @@
 		663476542AFD682200DE8B76 /* Lesson03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663476532AFD682200DE8B76 /* Lesson03.swift */; };
 		663476562AFD6DAB00DE8B76 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663476552AFD6DAB00DE8B76 /* main.swift */; };
 		663476592AFD70CC00DE8B76 /* Lesson04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663476582AFD70CC00DE8B76 /* Lesson04.swift */; };
+		669D3AE42B03D77F000AB30C /* Lesson05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669D3AE32B03D77F000AB30C /* Lesson05.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		663476532AFD682200DE8B76 /* Lesson03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson03.swift; sourceTree = "<group>"; };
 		663476552AFD6DAB00DE8B76 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		663476582AFD70CC00DE8B76 /* Lesson04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson04.swift; sourceTree = "<group>"; };
+		669D3AE32B03D77F000AB30C /* Lesson05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson05.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		661458D32AF0365900E5508D /* swift_general_seminars */ = {
 			isa = PBXGroup;
 			children = (
+				669D3AE22B03D763000AB30C /* lesson05 */,
 				663476572AFD70B800DE8B76 /* lesson04 */,
 				663476522AFD67FE00DE8B76 /* lesson03 */,
 				6634764F2AF4471D00DE8B76 /* lesson02 */,
@@ -104,6 +107,14 @@
 				663476582AFD70CC00DE8B76 /* Lesson04.swift */,
 			);
 			path = lesson04;
+			sourceTree = "<group>";
+		};
+		669D3AE22B03D763000AB30C /* lesson05 */ = {
+			isa = PBXGroup;
+			children = (
+				669D3AE32B03D77F000AB30C /* Lesson05.swift */,
+			);
+			path = lesson05;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				663476512AF4474A00DE8B76 /* Lesson02.swift in Sources */,
 				663476562AFD6DAB00DE8B76 /* main.swift in Sources */,
 				663476592AFD70CC00DE8B76 /* Lesson04.swift in Sources */,
+				669D3AE42B03D77F000AB30C /* Lesson05.swift in Sources */,
 				661458D52AF0365900E5508D /* Lesson01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
