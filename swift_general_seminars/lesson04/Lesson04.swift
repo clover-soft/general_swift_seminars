@@ -56,7 +56,7 @@ struct Pizza: CustomStringConvertible {
 }
 
 //Создать класс пиццерии, добавить массив с возможными пиццами. Переменная с массивом должна быть приватной. Массив задается в инициализаторе.
-class Pizzeria {
+class PizzeriaLesso05 {
     private var availablePizzas: [Pizza]
 
     init(pizzas: [Pizza]) {
@@ -75,13 +75,13 @@ class Pizzeria {
 
 //Создать экземпляр класса пиццерии и добавить в него несколько пицц.
 func lesson04_01() {
-    let margherita = Pizza(type: .margherita, dough: .thin, toppings: [.tomatoes, .cheese], cost: 650.00)
-    let pepperoni = Pizza(type: .pepperoni, dough: .thick, toppings: [.additionalPepperoni, .cheese], cost: 720.00)
-    let hawaiian = Pizza(type: .hawaiian, dough: .thin, toppings: [], cost: 690.00)
-    let myPizzeria = Pizzeria(pizzas: [margherita, pepperoni])  // Создаем пиццерию с двумя пиццами
-    myPizzeria.addPizza(newPizza: hawaiian)  // Добавляем еще одну пиццу
-    let pizzas = myPizzeria.getPizzas()
-    for pizza in pizzas {
-        print(pizza)
-    }
+//    let margherita = Pizza(type: .margherita, dough: .thin, toppings: [.tomatoes, .cheese], cost: 650.00)
+//    let pepperoni = Pizza(type: .pepperoni, dough: .thick, toppings: [.additionalPepperoni, .cheese], cost: 720.00)
+//    let hawaiian = Pizza(type: .hawaiian, dough: .thin, toppings: [], cost: 690.00)
+//    let myPizzeria = Pizzeria(pizzas: [margherita, pepperoni])  // Создаем пиццерию с двумя пиццами
+//    myPizzeria.addPizza(newPizza: hawaiian)  // Добавляем еще одну пиццу
+//    let pizzas = myPizzeria.getPizzas()
+//    for pizza in pizzas {
+//        print(pizza)
+//    }
 }
